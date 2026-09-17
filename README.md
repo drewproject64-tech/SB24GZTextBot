@@ -1,20 +1,21 @@
 # SB24GZ – អត្ថបទ
 
-Telegram-native text utility bot.
+A focused Telegram-native text utility.
 
 ## Bot identity
 - Name: `SB24GZ – អត្ថបទ`
 - Username: `@SB24GZ_TextBot`
-- Purpose: Create, format, copy, and organize text inside Telegram.
+- Purpose: Create and format text directly inside Telegram.
 
-## Core functions
-1. Create & Format
-2. Text Tools
-3. Copy / Organize
+## Three core functions
+1. Create & Format — clean extra spaces and blank lines.
+2. Text Tools — uppercase, lowercase, word count, and character count.
+3. Copy / Organize — prepare readable text for reuse.
 
 ## Commands
-- `/start`
-- `/help`
+- `/start` — open the main menu
+- `/help` — show available functions
+- `/cancel` — cancel the current operation
 
 ## Environment
 Set `BOT_TOKEN` in the deployment environment. Never commit the real token.
@@ -24,4 +25,4 @@ Set `BOT_TOKEN` in the deployment environment. Never commit the real token.
 python bot.py
 ```
 
-The core user experience stays inside Telegram and does not require an external website.
+The bot is designed to perform its core functions directly inside Telegram without external websites or redirects.
